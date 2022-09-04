@@ -15,6 +15,10 @@ jobs:
         node-version: '14.x'
     - name: Install dependencies
       run: npm ci
+
+    - name: Install Playwright Test Libs
+      run: npm i -D @playwright/test
+      
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
