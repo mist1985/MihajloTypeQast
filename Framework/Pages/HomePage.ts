@@ -15,7 +15,7 @@ import { CommonActions } from '../common-actions/commonActions'
     // Select Name
     const nameField = "//input[@id='FirstName']"
 
-    // Select Surname
+    // Select Surnames
     const surnameField = "//input[@id='LastName']"
 
     // Birth date selection
