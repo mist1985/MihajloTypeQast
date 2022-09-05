@@ -16,7 +16,7 @@ jobs:
     - name: Install dependencies
       run: npm ci
 
-    - name: Install Playwright Test Libraries
+    - name: Install Playwright Test Library
       run: npm install -D @playwright/test
        
     - name: Install Playwright Browsers
