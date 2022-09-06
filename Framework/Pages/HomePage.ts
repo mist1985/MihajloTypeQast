@@ -1,6 +1,10 @@
 import { expect, Locator, Page } from '@playwright/test';
 import { CommonActions } from '../common-actions/commonActions'
 
+
+///-------------------------------------------------- SELECTORS -------------------------------------------------- ///
+/* This is a list of selectors found on the home page for both individual account creation and also company account creation*/
+
 //-------------------------------------------------- LINKS PAGE REGISTER AS PRIVATE INDIVIDUAL -------------------------------------------------- //
 
     // // CONSENT COOKIE
@@ -102,6 +106,13 @@ class HomePage {
         this.Page = page;
         this.commonActions = new CommonActions();               
     }
+
+    /*  
+    List of methods that are used. Please note that I am also using my own custom methods for clicking that are located in the commonActions.ts file that further improve the functions provided by Typescript.
+    */
+
+
+
 
     //  /// -----------------  COOKIE ---------------- ///
 
